@@ -1,53 +1,102 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
-        <title>DevMemory-Knowlege Engine</title>
-        <link rel="stylesheet" href="./static/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="static/style.css" />
+        <title>DevMemory</title>
     </head>
     <body>
-        <h1>DevMemory</h1>
-        <h2>Sign in to your memory bank</h2>
-        <div class="first_div">
-            <button class="button-1">Continue with GitHub</button>
-            <button class="button-2">Continue with Google</button>
-            <h5
-                style="
-                    color: #9ca3af;
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: smaller;
-                    font-weight: normal;
-                "
-            >
-                OR CONTINUE WITH EMAIL
-            </h5>
-
-            <h5 class="h5-1" style="text-align: left">Email Address</h5>
-            <div class="input">
-                <span>✉</span>
-                <input class="form-1" type="email" value="developer@example.com" />
-            </div>
-            <div class="row">
-                <h5 class="h5-1" style="text-align: left">Password</h5>
-                <a
-                    href="youtube.com"
-                    style="
-                        font-family: Arial, Helvetica, sans-serif;
-                        color: blueviolet;
-                        font-weight: normal;
-                        text-decoration: none;
-                        font-size: small;
-                    "
-                    >Forgot password?</a
-                >
-            </div>
-            <div class="input">
-                <span>🔒</span>
-                <input class="form-1" type="password" value="pasword 123" />
-            </div>
-            <button class="button-3">Sign In →</button>
-            <h5 class="txt">
-                Dont have an account?<a href="youtube.com" style="text-decoration: none; color: blueviolet"> Sign up</a>
-            </h5>
+        <div class="header">
+            <header>
+                <div class="logo-txt">
+                    <h3 style="color: white; font-family: &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif">
+                        DevMemory
+                    </h3>
+                </div>
+                <ul>
+                    <li><a class="nav-link1" href="#features">Features</a></li>
+                    <li><a class="nav-link1" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link1" href="#use-case">Use Case</a></li>
+                </ul>
+                <div class="buttons">
+                    <button class="log-in">Log in</button>
+                    <button class="sign-up">Get started</button>
+                </div>
+            </header>
         </div>
+        <section class="hero">
+            <p class="hero-txt1">YOUR PERSONAL DEVELOPER MEMORY</p>
+            <h1 class="hero-h1">Never Solve the <br /><span class="hero-span">Same Bug Twice.</span></h1>
+            <p class="hero-txt2">
+                Capture the problems you solve, the code that fixed them, and the context <br />future-you will need—all
+                in one searchable place.
+            </p>
+            <button class="hero-btn">Start Capturing Knowledge →</button>
+            <div class="hero-img">
+                <img src="static/images/hero-img.png" alt="photo of the website" class="img1" />
+            </div>
+        </section>
+        <section class="sec-2" id="features">
+            <div class="sec-2-div1">
+                <p class="sec-2-txt1">YOU ALREADY DID THE HARD PART</p>
+                <h1 class="sec-2-txt2">That fix shouldn't disappear when the terminal closes.</h1>
+            </div>
+            <div class="sec-2-div2">
+                <video class="sec-2-video" src="static/videos/demo.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </section>
+
+        <section class="sec-3" id="how-it-works">
+            <div class="sec-3-div1">
+                <p class="sec-3-txt1">A HABIT THAT PAYS YOU BACK</p>
+                <h1 class="sec-3-txt2">Solve it once. Remember it forever.</h1>
+            </div>
+            <div class="sec-3-div2">
+                <div class="sec-3-step">
+                    <div class="sec-3-num"><span class="sec-3-num-txt">01</span></div>
+                    <p class="sec-3-txt3">Solve it locally</p>
+                    <p class="sec-3-txt4">
+                        Debug the issue where you work, using the tools and process you already know.
+                    </p>
+                </div>
+                <div class="sec-3-step">
+                    <div class="sec-3-num"><span class="sec-3-num-txt">02</span></div>
+                    <p class="sec-3-txt3">Capture what mattered</p>
+                    <p class="sec-3-txt4">
+                        Log the symptom, root cause, solution, and code while the context is still fresh.
+                    </p>
+                </div>
+                <div class="sec-3-step">
+                    <div class="sec-3-num"><span class="sec-3-num-txt">03</span></div>
+                    <p class="sec-3-txt3">Recall it instantly</p>
+                    <p class="sec-3-txt4">
+                        Search in seconds when the same problem—or a familiar variation—returns months later.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="sec-4" id="use-case">
+            <div class="sec-4-div1">
+                <p class="sec-4-txt1">MAKE YOUR EXPERIENCE COMPOUND</p>
+                <h1 class="sec-4-txt2">Your best fixes deserve a permanent home.</h1>
+                <p class="sec-4-txt3">
+                    Start building the searchable memory bank that gets more useful with every problem you solve.
+                </p>
+                <button class="sec-4-btn">Create Your Free Account →</button>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-div1">
+                <h3 class="footer-logo-txt">DevMemory</h3>
+                <p class="footer-txt1">© 2026 DevMemory. Built for developers.</p>
+            </div>
+            <div class="footer-div2">
+                <a class="footer-link1" href="#features">Features</a>
+                <a class="footer-link1" href="#how-it-works">How It Works</a>
+                <a class="footer-link1" href="#">Log In</a>
+                <a class="footer-link1" href="#">Sign Up</a>
+            </div>
+        </footer>
     </body>
 </html>
